@@ -211,7 +211,7 @@ export default class TimeField extends React.Component<Props, State> {
 
     return (
       <input
-        type="text"
+        type="tel"
         {...props}
         value={value}
         onChange={onChangeHandler}
